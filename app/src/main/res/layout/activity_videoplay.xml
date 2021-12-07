@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+
+
+    tools:context=".VideoplayActivity">
+
+
+    <com.jarvanmo.exoplayerview.ui.ExoVideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_weight="0.1"
+
+        app:controller_display_mode="all"
+        app:default_artwork="@drawable/default_art"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:resize_mode="fill"
+        app:use_artwork="true"  />
+
+
+
+
+    <!--    &lt;!&ndash;Widget for exoplayer view&ndash;&gt;-->
+    <!--    <com.google.android.exoplayer2.ui.SimpleExoPlayerView-->
+    <!--        android:id="@+id/idExoPlayerVIew"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        app:use_controller="true"-->
+    <!--        android:layout_height="246dp" />-->
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/imgfire"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg2" />
+        <RelativeLayout
+            android:id="@+id/wrapper2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#B5000000"
+            android:layout_weight="1">
+            android:visibility="gone"
+
+
+            <!--            <ImageButton-->
+<!--                android:id="@+id/mode_none"-->
+<!--                android:layout_width="32dp"-->
+<!--                android:layout_height="32dp"-->
+<!--                android:visibility="gone"-->
+<!--                android:background="@drawable/login_btn_background"-->
+
+<!--                android:src="@drawable/ic_baseline_view_array_24"-->
+<!--                android:text=" Mode Fill "-->
+<!--                android:textSize="18dp"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintEnd_toStartOf="@+id/mode_zoom"-->
+<!--                app:layout_constraintHorizontal_bias="0.481"-->
+<!--                app:layout_constraintStart_toEndOf="@+id/mode_fit"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                app:layout_constraintVertical_bias="0.032" />-->
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/mode_fit"-->
+<!--                android:layout_width="32dp"-->
+<!--                android:layout_height="32dp"-->
+<!--                android:layout_marginStart="16dp"-->
+<!--                android:layout_marginTop="16dp"-->
+<!--                android:visibility="gone"-->
+<!--                android:background="@drawable/login_btn_background"-->
+
+<!--                android:fontFamily="@font/open_sans_semibold"-->
+<!--                android:src="@drawable/ic_baseline_fit_screen_24"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/mode_width"-->
+<!--                android:layout_width="32dp"-->
+<!--                android:layout_height="32dp"-->
+
+<!--                android:visibility="gone"-->
+<!--                android:layout_marginTop="16dp"-->
+<!--                android:layout_marginEnd="16dp"-->
+<!--                android:background="@drawable/login_btn_background"-->
+<!--                android:fontFamily="@font/open_sans_semibold"-->
+<!--                android:src="@drawable/ic_baseline_fullscreen_24"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/mode_height"-->
+<!--                android:layout_width="32dp"-->
+<!--                android:layout_height="32dp"-->
+<!--                android:layout_marginTop="16dp"-->
+<!--                android:background="@drawable/login_btn_background"-->
+<!--                android:fontFamily="@font/open_sans_semibold"-->
+<!--                android:visibility="gone"-->
+<!--                android:src="@drawable/ic_baseline_close_fullscreen_24"-->
+<!--                android:text="Mode Fix Height"-->
+<!--                app:layout_constraintEnd_toStartOf="@+id/mode_width"-->
+<!--                app:layout_constraintStart_toEndOf="@+id/mode_zoom"-->
+<!--                app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/mode_zoom"-->
+<!--                android:layout_width="32dp"-->
+<!--                android:layout_height="32dp"-->
+<!--                android:layout_marginTop="16dp"-->
+<!--                android:background="@drawable/login_btn_background"-->
+<!--                android:visibility="gone"-->
+
+<!--                android:fontFamily="@font/open_sans_semibold"-->
+<!--                android:src="@drawable/ic_baseline_zoom_out_map_24"-->
+<!--                android:textSize="18dp"-->
+<!--                app:layout_constraintEnd_toStartOf="@+id/mode_width"-->
+<!--                app:layout_constraintStart_toEndOf="@+id/mode_fit"-->
+<!--                app:layout_constraintTop_toTopOf="parent" />-->
+
+
+<!--            <ImageView-->
+<!--                android:id="@+id/imageView"-->
+<!--                android:layout_width="28dp"-->
+<!--                android:layout_height="28dp"-->
+<!--                android:src="@drawable/streamlive"-->
+<!--                app:layout_constraintBottom_toTopOf="@+id/subyoutube"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+
+<!--                app:layout_constraintHorizontal_bias="0.501"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="@+id/changeMode"-->
+<!--                app:layout_constraintVertical_bias="0.878" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/subyoutube"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:fontFamily="@font/robotobold"-->
+<!--                android:text="SUBSCRIBE"-->
+<!--                android:textColor="#EAE9E9"-->
+
+<!--                android:textSize="9dp"-->
+<!--                app:layout_constraintBottom_toTopOf="@+id/adView2"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/changeMode"-->
+<!--                app:layout_constraintVertical_bias="0.229" />-->
+
+            <Button
+                android:id="@+id/changeMode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="#757C0000"
+                android:fontFamily="@font/robotobold"
+                android:text="Go Live"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="17dp"
+
+                app:layout_constraintBottom_toTopOf="@+id/adView2"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.009" />
+
+            <WebView
+                android:id="@+id/webViewForWebsite"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/adView2"
+
+                android:layout_below="@+id/changeMode"
+                app:layout_constraintBottom_toTopOf="@+id/adView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/changeMode"
+                app:layout_constraintVertical_bias="0.504" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                app:adSize="BANNER"
+                app:adUnitId="@string/banner_id"
+
+                app:layout_constraintBottom_toBottomOf="parent">
+
+            </com.google.android.gms.ads.AdView>
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="vertical">-->
+    <!--      -->
+    <!--    </LinearLayout>-->
+</LinearLayout>

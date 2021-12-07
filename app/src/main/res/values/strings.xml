@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Live - Hindi News</string>
+    <string name="banner_id">ca-app-pub-2779631885874157/1665765531</string>
+    <string name="interstitialAd_id">ca-app-pub-2779631885874157/6726520529</string>
+
+<!--    <string name="banner_id">ca-app-pub-3940256099942544/6300978111</string>-->
+<!--    <string name="interstitialAd_id">ca-app-pub-3940256099942544/8691691433</string>-->
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="disclaimerDialog">"This news app does not stream any of the channels included in its website app. All the streaming links are from third parties available free on the internet. If any one founds that we are violating by broadcasting any copyright protected channel email us the channel name, based on your email request.\n\n Email ID : <a href="mailto:abhinav290592@gmail.com">abhinav290592@gmail.com</a> \n\n As of now this all news channels are streamed by Live - Hindi News. We are not responsible for its contents."</string>
+
+</resources>

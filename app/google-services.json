@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "134941873438",
+    "project_id": "sinkutv",
+    "storage_bucket": "sinkutv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134941873438:android:c1d85338b843c9b514a50f",
+        "android_client_info": {
+          "package_name": "com.abhinav.sinkutv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134941873438-530ilq279cnmoph3j7fajf7vfn3b7v1m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abhinav.sinkutv",
+            "certificate_hash": "c260e840e4387a10bab9421f1967eda2313f8a30"
+          }
+        },
+        {
+          "client_id": "134941873438-g32ma2lbck2m6vldb4vv7o0phu6piqm4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArRgGlNAq-wdWLrIa2Mzjtmo76Z7wmXIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134941873438-g32ma2lbck2m6vldb4vv7o0phu6piqm4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.navigation.NavigationView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/nav_header"
+    android:layout_height="140dp"
+    android:background="#F3D62C2C"
+    android:clickable="true"
+    android:layout_gravity="bottom"
+
+    android:focusable="true"
+    android:fitsSystemWindows="false"
+    android:foreground="?attr/selectableItemBackgroundBorderless"
+    android:gravity="bottom"
+
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    <ImageView
+        android:id="@+id/nav_header_imageView"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_baseline_live_tv_24"/>
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/nav_header_textView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        -->
+<!--       -->
+<!--android:padding="10dp"-->
+<!--        android:layout_gravity="center|bottom|right"-->
+<!--        android:typeface="sans"-->
+<!--        android:text="Live - Hindi News"-->
+<!--        android:textStyle="bold|normal"-->
+<!--        android:marqueeRepeatLimit="marquee_forever"-->
+<!--       />-->
+
+    <LinearLayout
+        android:id="@+id/btmtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:clickable="true"
+android:gravity="left"
+
+        android:padding="1dp"
+        android:orientation="vertical">
+        <include layout="@layout/bottomtext" />
+    </LinearLayout>
+
+</com.google.android.material.navigation.NavigationView>

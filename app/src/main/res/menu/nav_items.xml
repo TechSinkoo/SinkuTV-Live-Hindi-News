@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_network_stream"
+            android:icon="@drawable/livestream"
+            android:title="Network Stream"/>
+
+
+
+
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_share_white_24dp"
+                    android:title="Share"/>
+                <item
+                    android:id="@+id/nav_rate"
+                    android:icon="@drawable/rate_us"
+                    android:title="Rate Us"/>
+
+        <item
+            android:id="@+id/subscribe"
+            android:icon="@drawable/streamlive"
+            android:title="Subscribe"/>
+
+                <item
+                    android:id="@+id/valuecredit"
+                    android:icon="@drawable/ic_baseline_how_to_reg_24"
+                    android:title="Value/Credit"/>
+
+                <item
+                    android:id="@+id/privacypolicy"
+                    android:icon="@drawable/ic_baseline_privacy_tip_24"
+                    android:title="Privacy Policy"/>
+
+
+
+                <item
+                    android:id="@+id/appdev"
+                    android:icon="@drawable/ic_baseline_tag_faces_24"
+                    android:title="App Developer"/>
+
+
+
+                <item
+                    android:id="@+id/moreapps"
+                    android:icon="@drawable/ic_baseline_get_app_24"
+                    android:title="More Application"/>
+
+
+
+                <item
+                    android:id="@+id/newsPub"
+                    android:icon="@drawable/ic_baseline_info_24"
+                    android:title="News Publisher Info"/>
+
+                <item
+                    android:id="@+id/exitbtn"
+                    android:icon="@drawable/exit_btn"
+                    android:title="Exit"/>
+
+
+    </group>
+
+
+
+</menu>

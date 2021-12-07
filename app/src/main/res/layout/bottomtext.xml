@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#1D000000"
+
+    android:padding="8dp">
+
+
+    <TextView
+        android:id="@+id/disclaimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="4dp"
+
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:paddingRight="5dp"
+
+        android:text="Disclaimer"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="31px"
+        android:textStyle="bold|normal"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/titlebottomtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="4dp"
+
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:paddingRight="5dp"
+android:layout_toRightOf="@id/disclaimer"
+        android:text="Live Hindi News"
+    android:gravity="right"
+
+        android:textColor="@color/white"
+        android:textSize="31px"
+        android:textStyle="bold|normal"
+        android:typeface="sans" />
+
+
+</RelativeLayout>
